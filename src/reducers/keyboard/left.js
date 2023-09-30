@@ -1,6 +1,7 @@
 import * as reducerType from '../../unit/reducerType';
 
 const initState = false;
+let globalState = 666;
 
 const reducer = (state = initState, action) => {
   switch (action.type) {
